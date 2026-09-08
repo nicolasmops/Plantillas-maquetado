@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    background-color: #ffd680;
+    height: 25vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+}
+.cajita{
+    height: 16.67vh;
+    aspect-ratio: 1/1;
+    background-color: #ffc86d;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.texto{
+    height: 16.67vh;
+    aspect-ratio: 2/1;
+    background-color: orange;
+}
+.titulo{
+    margin-top: 1.091vh; 
+    margin-left: 3.641vw; 
+    width: 52.427vw; 
+    height: 2.181vh; 
+    background-color: #2541B2;
+}
+.contenido{
+    height: 62.5vh;
+}
+.footer{
+    height: 12.5vh;
+    background-color: #e6e5e5;
+}
