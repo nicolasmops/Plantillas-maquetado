@@ -15,27 +15,57 @@ body{
     align-items: center;
 }
 .cajita{
-    height: 16.67vh;
+    height: 15.75vh;
     aspect-ratio: 1/1;
     background-color: #ffc86d;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 12vw;
+    margin-right: 14.66vw;
 }
 .texto{
     height: 16.67vh;
-    aspect-ratio: 2/1;
-    background-color: orange;
+    aspect-ratio: 2/1;    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2.3vh;
 }
 .titulo{
-    margin-top: 1.091vh; 
-    margin-left: 3.641vw; 
-    width: 52.427vw; 
-    height: 2.181vh; 
-    background-color: #2541B2;
+    width: 21.3vw; 
+    height: 2.5vh; 
+    background-color: #FFB959;
+}
+.arriba{
+    width: 100%;
+    height: 2.3vh;
+    background-color: blue;
+}
+.oracion{
+    width: 42.9vw;
+    height: 1.16vh;
+    background-color: white;
+}
+.chiquita{
+    width: 21.5vw;
 }
 .contenido{
     height: 62.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.75vh
+
 }
+.fila{
+    padding-left: 12vw;
+    height: 15.75vh;
+    width: 73.25vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
 .footer{
     height: 12.5vh;
     background-color: #e6e5e5;
