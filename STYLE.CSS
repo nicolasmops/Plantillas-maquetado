@@ -14,12 +14,21 @@ body{
     display:flex;
     align-items: center;
 }
+.error{
+    margin-right: 14.66vw;
+    margin-left: 12vw;
+}
 .cajita{
     height: 15.75vh;
     aspect-ratio: 1/1;
     background-color: #ffc86d;
-    margin-left: 12vw;
-    margin-right: 14.66vw;
+}
+.centro{
+    width: 7.75vw;
+    aspect-ratio: 1/1;
+    margin: auto; 
+    background-color: red;
+    margin-top: 1.7vh;
 }
 .texto{
     height: 16.67vh;
@@ -38,6 +47,7 @@ body{
     width: 100%;
     height: 2.3vh;
     background-color: blue;
+
 }
 .oracion{
     width: 42.9vw;
@@ -52,18 +62,34 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 5.75vh
-
 }
 .fila{
-    padding-left: 12vw;
+    margin-left:12vw;
     height: 15.75vh;
     width: 73.25vw;
     display: flex;
     justify-content: center;
     flex-direction: row;
-
+    gap: 13vw;
+}
+.am{
+    background-color: #ffd680;
+}
+.ama{
+    background-color: #ffc86d;
+}
+.ro{
+    background-color: #ff9978;
+}
+.roj{
+    background-color: #f68360;
+}
+.az{
+background-color: #c4edf1;
+}
+.azu{
+    background-color: #abe0e5;
 }
 
 .footer{
