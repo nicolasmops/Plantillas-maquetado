@@ -95,4 +95,36 @@ background-color: #c4edf1;
 .footer{
     height: 12.5vh;
     background-color: #e6e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    width: 74.17vw;
+    height: 7.58vh;
+    display: flex;
+    justify-content: space-between;
+}
+.parrafo{
+    width: 15.75vw;
+    height: 7.58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tit{
+    width: 15.75vw;
+    height: 1.75vh;
+    background-color: #CCCBCA;
+}
+.or{
+    width: 15.75vw;
+    height: 0.58vh;
+    background-color: white;
+}
+.chiq{
+    width: 8.16vw;
+    height: 0.58vh;
+    background-color: white;
 }
